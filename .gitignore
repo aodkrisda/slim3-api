@@ -131,3 +131,4 @@ dwsync.xml
 # -------------------------
 
 !.gitignore
+!.sample.env
