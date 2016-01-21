@@ -1,0 +1,22 @@
+{
+    "name": "dominicbusinaro/slim3-api",
+    "authors": [
+        {
+            "name": "Dominic Businaro",
+            "email": "dominic.businaro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "3.1.0",
+        "vlucas/phpdotenv": "~1.1@dev",
+        "illuminate/database": "^5.2",
+        "respect/validation": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
