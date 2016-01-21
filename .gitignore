@@ -1,6 +1,6 @@
 # ignore all files starting with . or ~
-#.*
-#~*
+.*
+~*
 
 # ignore node dependency directories (used by grunt)
 node_modules/
@@ -124,3 +124,10 @@ dwsync.xml
 *.rar
 *.tar
 *.zip
+
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+!.gitignore
